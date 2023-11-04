@@ -1,0 +1,14 @@
+/home/ramon/Documentos/Projetos/Estudos c#/ManipulacaoArquivo/bin/Debug/net7.0/ManipulacaoArquivo
+/home/ramon/Documentos/Projetos/Estudos c#/ManipulacaoArquivo/bin/Debug/net7.0/ManipulacaoArquivo.deps.json
+/home/ramon/Documentos/Projetos/Estudos c#/ManipulacaoArquivo/bin/Debug/net7.0/ManipulacaoArquivo.runtimeconfig.json
+/home/ramon/Documentos/Projetos/Estudos c#/ManipulacaoArquivo/bin/Debug/net7.0/ManipulacaoArquivo.dll
+/home/ramon/Documentos/Projetos/Estudos c#/ManipulacaoArquivo/bin/Debug/net7.0/ManipulacaoArquivo.pdb
+/home/ramon/Documentos/Projetos/Estudos c#/ManipulacaoArquivo/obj/Debug/net7.0/ManipulacaoArquivo.GeneratedMSBuildEditorConfig.editorconfig
+/home/ramon/Documentos/Projetos/Estudos c#/ManipulacaoArquivo/obj/Debug/net7.0/ManipulacaoArquivo.AssemblyInfoInputs.cache
+/home/ramon/Documentos/Projetos/Estudos c#/ManipulacaoArquivo/obj/Debug/net7.0/ManipulacaoArquivo.AssemblyInfo.cs
+/home/ramon/Documentos/Projetos/Estudos c#/ManipulacaoArquivo/obj/Debug/net7.0/ManipulacaoArquivo.csproj.CoreCompileInputs.cache
+/home/ramon/Documentos/Projetos/Estudos c#/ManipulacaoArquivo/obj/Debug/net7.0/ManipulacaoArquivo.dll
+/home/ramon/Documentos/Projetos/Estudos c#/ManipulacaoArquivo/obj/Debug/net7.0/refint/ManipulacaoArquivo.dll
+/home/ramon/Documentos/Projetos/Estudos c#/ManipulacaoArquivo/obj/Debug/net7.0/ManipulacaoArquivo.pdb
+/home/ramon/Documentos/Projetos/Estudos c#/ManipulacaoArquivo/obj/Debug/net7.0/ManipulacaoArquivo.genruntimeconfig.cache
+/home/ramon/Documentos/Projetos/Estudos c#/ManipulacaoArquivo/obj/Debug/net7.0/ref/ManipulacaoArquivo.dll
