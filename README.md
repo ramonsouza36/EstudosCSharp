@@ -9,6 +9,7 @@
 ## O que foi estudado até agora
 
  - Manipulação de arquivos texto e Json
+ - Api no conceito Minimal Api 
 
 ## Tecnologias utilizadas
 
