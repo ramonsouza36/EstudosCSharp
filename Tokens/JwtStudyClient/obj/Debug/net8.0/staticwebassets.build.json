@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7FUmK4qdGNQ+t9mIfrlJaTz09FaWGHHXYmRGxhrelf0=",
+  "Source": "JwtStudyClient",
+  "BasePath": "_content/JwtStudyClient",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
