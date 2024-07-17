@@ -3,14 +3,21 @@ using System.Security.Claims;
 using System.Text;
 using System.Text.Json;
 using System.Text.Unicode;
+using Microsoft.AspNetCore.Components;
 using Microsoft.IdentityModel.Tokens;
 
 public class TokenService
 {
+    private readonly IConfiguration _configuration; 
+
+    public TokenService(IConfiguration configuration)
+    {
+        _configuration = configuration;
+    }
     public string Generate(User user)
     {
         var handler = new JwtSecurityTokenHandler();
-        var key = Encoding.ASCII.GetBytes(Configuration.PrivateKey);
+        var key = Encoding.ASCII.GetBytes(_configuration["Jwt:Key"]!);
 				var credentials = new SigningCredentials(
                 new SymmetricSecurityKey(key),
                 SecurityAlgorithms.HmacSha256Signature);
@@ -20,6 +27,8 @@ public class TokenService
             Subject = GenerateClaims(user),
             Expires = DateTime.UtcNow.AddHours(2),
             SigningCredentials = credentials,
+            Issuer = _configuration["Jwt:Issuer"],
+            Audience = _configuration["Jwt:Audience"]
         };
         var token = handler.CreateToken(tokenDescriptor);
         return handler.WriteToken(token);
